@@ -26,7 +26,7 @@ namespace Nyous.Api.Contexts
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=.\\SqlExpress; Initial Catalog= NyousManha; Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=LAB105101\\SQLEXPRESS2;Database=NyousGabrielBTarde;User Id=sa;Password=sa132;");
             }
 
             base.OnConfiguring(optionsBuilder);
